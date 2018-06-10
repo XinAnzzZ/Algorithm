@@ -11,7 +11,8 @@ import java.util.Arrays;
 public class BubbleSort {
 
     public static void main(String[] args) {
-        int[] arr = {4, 3, 6, 15, 7, 20, 5};
+        int[] arr = ArrayUtils.generateRandomArray(10, 0, 10);
+        System.out.println(arr);
         int[] sortedArray = bubbleSort(arr);
         System.out.println(Arrays.toString(sortedArray));
     }
@@ -23,7 +24,7 @@ public class BubbleSort {
      * @return 排序后的数组
      */
     private static int[] bubbleSort(int[] arr) {
-        if (arr == null || arr.length < ArrayUtils.ARRAY_MIN_LENGTH) {
+        if (ArrayUtils.check(arr)) {
             return arr;
         }
         for (int end = arr.length - 1; end > 0; end--) {

@@ -7,11 +7,12 @@ import java.util.Arrays;
 /**
  * @author XinAnzzZ
  * @date 2018/6/8 13:22
+ * 选择排序
  */
 public class SelectionSort {
 
     private static int[] selectionSort(int[] arr) {
-        if (arr == null || arr.length < ArrayUtils.ARRAY_MIN_LENGTH) {
+        if (ArrayUtils.check(arr)) {
             return arr;
         }
         for (int end = arr.length - 1; end > 0; end--) {
@@ -27,9 +28,9 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = ArrayUtils.generateRandomArray(10, 0, 10);
+        int[] arr = ArrayUtils.generateRandomArray(10, 10);
         System.out.println(Arrays.toString(arr));
-        int[] target = selectionSort(arr);
-        System.out.println(Arrays.toString(target));
+        int[] sortedArray = selectionSort(arr);
+        System.out.println(Arrays.toString(sortedArray));
     }
 }
