@@ -66,6 +66,4 @@ public class MergeSort {
         mergeSort(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
     }
-
-
 }

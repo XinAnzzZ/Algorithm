@@ -1,12 +1,13 @@
 package com.xinan.algorithm.util;
 
+
 /**
  * @author XinAnzzZ
  * @date 2018/6/8 13:22
  */
 public class ArrayUtils {
 
-    public static final int ARRAY_MIN_LENGTH = 2;
+    private static final int ARRAY_MIN_LENGTH = 2;
 
     public static void main(String[] args) {
     }
@@ -52,6 +53,9 @@ public class ArrayUtils {
      * @param j   the i + 1
      */
     public static void swap(int[] arr, int i, int j) {
+        if (i == j) {
+            return;
+        }
         arr[i] = arr[i] ^ arr[j];
         arr[j] = arr[i] ^ arr[j];
         arr[i] = arr[i] ^ arr[j];
@@ -70,5 +74,11 @@ public class ArrayUtils {
      */
     private static int generateRandomInteger(int start, int end) {
         return (start + (int) (Math.random() * (end - start)));
+    }
+
+    public static int[] copyArray(int[] arr) {
+        int[] copiedArray = new int[arr.length];
+        System.arraycopy(arr, 0, copiedArray, 0, arr.length);
+        return copiedArray;
     }
 }
