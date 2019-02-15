@@ -12,7 +12,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int[] arr = ArrayUtils.generateRandomArray(10, 0, 10);
-        System.out.println(arr);
+        System.out.println(Arrays.toString(arr));
         int[] sortedArray = bubbleSort(arr);
         System.out.println(Arrays.toString(sortedArray));
     }
