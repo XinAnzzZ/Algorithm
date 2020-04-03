@@ -3,8 +3,8 @@ package com.xinan.algorithm.util;
 import java.util.Arrays;
 
 /**
- * @author XinAnzzZ
- * @date 2018/6/11 16:47
+ * @author Moore
+ * @since 2018/6/11
  */
 public class Comparator {
 

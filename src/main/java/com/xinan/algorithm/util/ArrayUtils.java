@@ -2,8 +2,8 @@ package com.xinan.algorithm.util;
 
 
 /**
- * @author XinAnzzZ
- * @date 2018/6/8 13:22
+ * @author Moore
+ * @since 2018/6/8
  */
 public class ArrayUtils {
 

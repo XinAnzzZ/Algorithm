@@ -6,8 +6,10 @@ import com.xinan.algorithm.util.Comparator;
 import java.util.Arrays;
 
 /**
- * @author XinAnzzZ
- * @date 2018/6/11 13:40
+ * 快排
+ *
+ * @author Moore
+ * @since 2018/6/11
  */
 public class QuickSort {
 

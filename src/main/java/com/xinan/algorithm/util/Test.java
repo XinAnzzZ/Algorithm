@@ -2,8 +2,8 @@ package com.xinan.algorithm.util;
 
 
 /**
- * @author XinAnzzZ
- * @date 2018/6/11 10:53
+ * @author Moore
+ * @since 2018/6/11
  */
 public class Test {
 

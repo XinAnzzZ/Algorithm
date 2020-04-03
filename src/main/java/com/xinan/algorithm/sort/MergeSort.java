@@ -5,9 +5,10 @@ import com.xinan.algorithm.util.ArrayUtils;
 import java.util.Arrays;
 
 /**
- * @author XinAnzzZ
- * @date 2018/6/8 22:38
  * 归并排序
+ *
+ * @author Moore
+ * @since 2018/6/8
  */
 public class MergeSort {
 

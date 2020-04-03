@@ -5,10 +5,10 @@ import com.xinan.algorithm.util.ArrayUtils;
 import java.util.Arrays;
 
 /**
- * @author XinAnzzZ
- * @date 2018/6/8 21:09
- * <p>
  * 插入排序
+ *
+ * @author Moore
+ * @since 2018/6/8
  */
 public class InsertionSort {
 
